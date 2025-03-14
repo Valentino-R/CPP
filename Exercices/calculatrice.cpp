@@ -9,7 +9,7 @@ int main ()
     while (true)
     {
         char operation {};
-        double a {} , b {}, res {};
+        double a {}, b {}, res {};
 
         std::cout << "Enter an operator (+, -, *, /) : ";
         std::cin >> operation;
