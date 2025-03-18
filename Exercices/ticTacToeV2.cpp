@@ -88,98 +88,98 @@ void computerMove(char* spaces, char computer, char player)
 {
     int number{};
     //check 1st line
-    if ((spaces[0] != ' ' && spaces[2] != computer && spaces[2] != player) && spaces[0] == spaces[1])
+    if ((spaces[0] != ' ' && (spaces[2] != computer && spaces[2] != player)) && spaces[0] == spaces[1])
     {
         spaces[2] = computer;
     }
-    else if ((spaces[2] != ' ' && spaces[0] != computer && spaces[0] != player) && spaces[1] == spaces[2])
+    else if ((spaces[2] != ' ' && (spaces[0] != computer && spaces[0] != player)) && spaces[1] == spaces[2])
     {
         spaces[0] = computer;
     }
-    else if ((spaces[0] != ' ' && spaces[1] != computer && spaces[1] != player) && spaces[0] == spaces[2])
+    else if ((spaces[0] != ' ' && (spaces[1] != computer && spaces[1] != player)) && spaces[0] == spaces[2])
     {
         spaces[1] = computer;
     }
     //check 2nd line
-    else if ((spaces[4] != ' ' && spaces[5] != computer && spaces[5] != player) && spaces[3] == spaces[4])
+    else if ((spaces[4] != ' ' && (spaces[5] != computer && spaces[5] != player)) && spaces[3] == spaces[4])
     {
         spaces[5] = computer;
     }
-    else if ((spaces[5] != ' ' && spaces[3] != computer && spaces[3] != player) && spaces[4] == spaces[5])
+    else if ((spaces[5] != ' ' && (spaces[3] != computer && spaces[3] != player)) && spaces[4] == spaces[5])
     {
         spaces[3] = computer;
     }
-    else if ((spaces[3] != ' ' && spaces[4] != computer && spaces[4] != player) && spaces[3] == spaces[5])
+    else if ((spaces[3] != ' ' && (spaces[4] != computer && spaces[4] != player)) && spaces[3] == spaces[5])
     {
         spaces[4] = computer;
     }
     //check 3rd line
-    else if ((spaces[6] != ' ' && spaces[8] != computer && spaces[8] != player) && spaces[6] == spaces[7])
+    else if ((spaces[6] != ' ' && (spaces[8] != computer && spaces[8] != player)) && spaces[6] == spaces[7])
     {
         spaces[8] = computer;
     }
-    else if ((spaces[8] != ' ' && spaces[6] != computer && spaces[6] != player) && spaces[7] == spaces[8])
+    else if ((spaces[8] != ' ' && (spaces[6] != computer && spaces[6] != player)) && spaces[7] == spaces[8])
     {
         spaces[6] = computer;
     }
-    else if ((spaces[6] != ' ' && spaces[7] != computer && spaces[7] != player) && spaces[6] == spaces[8])
+    else if ((spaces[6] != ' ' && (spaces[7] != computer && spaces[7] != player)) && spaces[6] == spaces[8])
     {
         spaces[7] = computer;
     }
     //check 1st column
-    else if ((spaces[0] != ' ' && spaces[6] != computer && spaces[6] != player) && spaces[0] == spaces[3])
+    else if ((spaces[0] != ' ' && (spaces[6] != computer && spaces[6] != player)) && spaces[0] == spaces[3])
     {
         spaces[6] = computer;
     }
-    else if ((spaces[6] != ' ' && spaces[0] != computer && spaces[0] != player) && spaces[3] == spaces[6])
+    else if ((spaces[6] != ' ' && (spaces[0] != computer && spaces[0] != player)) && spaces[3] == spaces[6])
     {
         spaces[0] = computer;
     }
-    else if ((spaces[0] != ' ' && spaces[3] != computer && spaces[3] != player) && spaces[0] == spaces[6])
+    else if ((spaces[0] != ' ' && (spaces[3] != computer && spaces[3] != player)) && spaces[0] == spaces[6])
     {
         spaces[3] = computer;
     }
     //check 2nd column
-    else if ((spaces[1] != ' ' && spaces[7] != computer && spaces[7] != player) && spaces[1] == spaces[4])
+    else if ((spaces[1] != ' ' && (spaces[7] != computer && spaces[7] != player)) && spaces[1] == spaces[4])
     {
         spaces[7] = computer;
     }
-    else if ((spaces[7] != ' ' && spaces[1] != computer && spaces[1] != player) && spaces[4] == spaces[7])
+    else if ((spaces[7] != ' ' && (spaces[1] != computer && spaces[1] != player)) && spaces[4] == spaces[7])
     {
         spaces[1] = computer;
     }
-    else if ((spaces[1] != ' ' && spaces[4] != computer && spaces[4] != player) && spaces[1] == spaces[7])
+    else if ((spaces[1] != ' ' && (spaces[4] != computer && spaces[4] != player)) && spaces[1] == spaces[7])
     {
         spaces[4] = computer;
     }
     //check 3rd column
-    else if ((spaces[2] != ' ' && spaces[8] != computer && spaces[8] != player) && spaces[2] == spaces[5])
+    else if ((spaces[2] != ' ' && (spaces[8] != computer && spaces[8] != player)) && spaces[2] == spaces[5])
     {
         spaces[8] = computer;
     }
-    else if ((spaces[8] != ' ' && spaces[2] != computer && spaces[2] != player) && spaces[5] == spaces[8])
+    else if ((spaces[8] != ' ' && (spaces[2] != computer && spaces[2] != player)) && spaces[5] == spaces[8])
     {
         spaces[2] = computer;
     }
-    else if ((spaces[2] != ' ' && spaces[5] != computer && spaces[5] != player) && spaces[2] == spaces[8])
+    else if ((spaces[2] != ' ' && (spaces[5] != computer && spaces[5] != player)) && spaces[2] == spaces[8])
     {
         spaces[5] = computer;
     }
     //check 1st diag
-    else if ((spaces[0] != ' ' && spaces[8] != computer && spaces[8] != player) && spaces[0] == spaces[4])
+    else if ((spaces[0] != ' ' && (spaces[8] != computer && spaces[8] != player)) && spaces[0] == spaces[4])
     {
         spaces[8] = computer;
     }
-    else if ((spaces[8] != ' ' && spaces[0] != computer && spaces[0] != player) && spaces[4] == spaces[8])
+    else if ((spaces[8] != ' ' && (spaces[0] != computer && spaces[0] != player)) && spaces[4] == spaces[8])
     {
         spaces[0] = computer;
     }
-    else if ((spaces[0] != ' ' && spaces[4] != computer && spaces[4] != player) && spaces[0] == spaces[8])
+    else if ((spaces[0] != ' ' && (spaces[4] != computer && spaces[4] != player)) && spaces[0] == spaces[8])
     {
         spaces[4] = computer;
     }
     //check 2nd diag
-    else if ((spaces[2] != ' ' && spaces[6] != computer && spaces[6] != player) && spaces[2] == spaces[4])
+    else if ((spaces[2] != ' ' && (spaces[6] != computer && spaces[6] != player)) && spaces[2] == spaces[4])
     {
         spaces[6] = computer;
     }
