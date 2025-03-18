@@ -55,16 +55,16 @@ int main ()
 
 void drawBoard(char* spaces)
 {
-    std::cout << '\n';
-    std::cout << "     |     |     " << '\n';
-    std::cout << "  " << spaces[0] << "  |  " << spaces[1] << "  |  " << spaces[2] << "  " << '\n';
-    std::cout << "_____|_____|_____" << '\n';
-    std::cout << "     |     |     " << '\n';
-    std::cout << "  " << spaces[3] << "  |  " << spaces[4] << "  |  " << spaces[5] << "  " << '\n';
-    std::cout << "_____|_____|_____" << '\n';
-    std::cout << "     |     |     " << '\n';
-    std::cout << "  " << spaces[6] << "  |  " << spaces[7] << "  |  " << spaces[8] << "  " << '\n';
-    std::cout << "     |     |     " << '\n';
+    std::cout << " _________________" <<'\n';
+    std::cout << "|    1|    2|    3|" << '\n';
+    std::cout << "|  " << spaces[0] << "  |  " << spaces[1] << "  |  " << spaces[2] << "  |" << '\n';
+    std::cout << "|_____|_____|_____|" << '\n';
+    std::cout << "|    4|    5|    6|" << '\n';
+    std::cout << "|  " << spaces[3] << "  |  " << spaces[4] << "  |  " << spaces[5] << "  |" << '\n';
+    std::cout << "|_____|_____|_____|" << '\n';
+    std::cout << "|    7|    8|    9|" << '\n';
+    std::cout << "|  " << spaces[6] << "  |  " << spaces[7] << "  |  " << spaces[8] << "  |" << '\n';
+    std::cout << "|_____|_____|_____|" << '\n';
     std::cout << '\n';
 }
 void palyer1Move(char* spaces, char player1)
